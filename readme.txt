@@ -4,6 +4,8 @@ On MacOS or Linux run with this command: $ DEBUG=sprintone:* npm start
 On Windows Command Prompt with this command: > set DEBUG=sprintone:* & npm start
 On Windows PowerShell with this command: PS> $env:DEBUG='sprintone:*'; npm start
 
+Index.html serves as the main webpage of the website 
+
 2. Contributions:
 
 Coding on HTML pages: Ritvik Kumar, Julie Ho, Ryan Firestone (collaborative)
