@@ -5,79 +5,58 @@ IST 256
 Ritvik Kumar K, Julie Ho, Ryan Firestone
 Latest Update: 11/4/20-->
 
-<!-- Declare HTML doc -->
-<!doctype html>
+<!-- Declare HTML doc
+-->
+<!DOCTYPE HTML>
 <html>
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movies Website</title>
     <link rel="stylesheet" href="stylesheets/style.css"/>
 </head>
 
 <body>
-    <!--navigation-->
+    <!--Create the navigation-->
     <nav>
-        <!-- create menu btns-->
-        <input type="checkbox" class="menu-btn" id="menu-btn"/>
-        <label class="menu-icon" for="menu-btn">
-            <span class="nav-icon"></span>
-        </label>
-        <!--menu options-->
-        <ul class="menu">
-            <li><a href="index.html">Homepage</a></li>
-            <li><a href="movieRatings.html">Movie Ratings</a></li>
-            <li><a href="tvshowRatings.html">TV Show Ratings</a></li>
-            <li><a href="internationalRatings.html">International Ratings</a></li>
-            <li><a href="dashboardCommunity.html">Dashboard Community</a></li>
+        <!--create names for each page on menu with links-->
+        <ul class="pages">
+            <li><a href="index.html">HOMEPAGE</a></li>
+            <li><a href="movieRatings.html">MOVIE RATING</a></li>
+            <li><a href="tvshowRatings.html">TV SHOW RATING</a></li>
+            <li><a href="internationalRatings.html">INTERNATIONAL RATINGS</a></li>
+            <li><a href="dashboardCommunity.html">DASHBOARD COMMUNITY</a></li>
         </ul>
-        <!--search bar-->
-        <div class="search">
-            <input type="text" placeholder="Find International Ratings"/>
-            <!--search icon-->
-            <i class="fas fa-search"></i>
+        <!--create search bar-->
+        <div id="searchbar">
+            <input type="text" placeholder="Search for rating"/>
         </div>
     </nav>
-    <section id="main">
-        <!--heading-->
-        <h1 class="showcase-heading">Internation Ratings List</h1>
-        
-        <ul id="autoWidth" class="cs-hidden">
-        
+
+    <div class="intHeading">
+        <h1>INTERNATIONAL RATINGS</h1>
+    </div>
+    <section id="internationalRatings">
         <!--Movie 1-->
-        <li class="item-a">
-            <div class="showcase-box">
+            <div class="intMovies">
+                <div class="intMovies-img"></div>
                <img src="images/ParasiteRating.png"/>
            </div>
-               </li>
             <!--Movie 2-->
-            <li class="item-b">
-               <div class="showcase-box">
+               <div class="intMovies">
                    <img src="images/DBSRating.png"/>
                </div>
-                   </li>
                 <!--Movie 3-->
-            <li class="item-c">
-               <div class="showcase-box">
+               <div class="intMovies">
                    <img src="images/WarRating.png"/>
                </div>
-                   </li>
                 <!--Movie 4-->
-            <li class="item-d">
-               <div class="showcase-box">
+               <div class="intMovies">
                    <img src="images/BusanRating.png"/>
                </div>
-                   </li>
                    <!--Movie 5-->
-            <li class="item-e">
-               <div class="showcase-box">
+               <div class="intMovies">
                    <img src="images/SpiritedRating.png"/>
                </div>
-                   </li>
-
-          </ul>
-
-        
     </section>
 </body>    
