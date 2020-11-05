@@ -5,44 +5,33 @@ IST 256
 Ritvik Kumar K, Julie Ho, Ryan Firestone
 Latest Update: 11/4/20-->
 
+<!-- Declare HTML doc-->
 
-<!--Dashboard Community Page yet to be implemented-->
-<!doctype html>
+<!DOCTYPE HTML>
 <html>
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE-edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Movies Website</title>
-
-<link rel="stylesheet" href="css/style.css"/>
-
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies Website</title>
+    <link rel="stylesheet" href="stylesheets/style.css"/>
 </head>
 
 <body>
-    <!--Create navigation-->
     <nav>
-        <!--Create menu btns-->
-        <input type="checkbox" class="menu-btn" id="menu-btn"/>
-        <label class="menu-icon" for="menu-btn">
-            <span class="nav-icon"></span>
-        </label>
-        <!--menu-->
-        <ul class="menu">
-            <li><a href="index.html">Homepage</a></li>
-            <li><a href="movieRatings.html">Movie Ratings</a></li>
-            <li><a href="tvshowRatings.html">TV Show Ratings</a></li>
-            <li><a href="internationalRatings.html">International Ratings</a></li>
-            <li><a href="dashboardCommunity.html">Dashboard Community</a></li>
+        <!--create names for each page on menu with links-->
+        <ul class="pages">
+            <li><a href="index.html">HOMEPAGE</a></li>
+            <li><a href="movieRatings.html">MOVIE RATINGS</a></li>
+            <li><a href="tvshowRatings.html">TV SHOW RATINGS</a></li>
+            <li><a href="internationalRatings.html">INTERNATIONAL RATINGS</a></li>
+            <li><a href="dashboardCommunity.html">DASHBOARD COMMUNITY</a></li>
         </ul>
-        <!--search bar-->
-        <div class="search">
-            <input type="text" placeholder="Find Your Favourtie Movies"/>
-            <!--search icon-->
-            <i class="fas fa-search"></i>
-        </div>
+        <!--create search bar-->
+    <div id="searchbar">
+        <input type="text" placeholder="Search for rating"/>
+    </div>
     </nav>
 
-    <a>Content to be added Later......</a>
+    <a id="db">Content to be added later......</a>
 
 </body>

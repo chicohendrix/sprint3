@@ -5,14 +5,13 @@ IST 256
 Ritvik Kumar K, Julie Ho, Ryan Firestone
 Latest Update: 11/4/20-->
 
-<!-- Declare HTML doc
--->
+<!-- Declare HTML doc-->
 <!DOCTYPE HTML>
 <html>
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Movies Website</title>
+    <title>"Movies Website</title>
     <link rel="stylesheet" href="stylesheets/style.css"/>
 </head>
 
@@ -22,58 +21,47 @@ Latest Update: 11/4/20-->
         <!--create names for each page on menu with links-->
         <ul class="pages">
             <li><a href="index.html">HOMEPAGE</a></li>
-            <li><a href="movieRatings.html">MOVIE RATING</a></li>
-            <li><a href="tvshowRatings.html">TV SHOW RATING</a></li>
+            <li><a href="movieRatings.html">MOVIE RATINGS</a></li>
+            <li><a href="tvshowRatings.html">TV SHOW RATINGS</a></li>
             <li><a href="internationalRatings.html">INTERNATIONAL RATINGS</a></li>
             <li><a href="dashboardCommunity.html">DASHBOARD COMMUNITY</a></li>
         </ul>
         <!--create search bar-->
-        <div id="searchbar">
-            <input type="text" placeholder="Search for rating"/>
-        </div>
+    <div id="searchbar">
+        <input type="text" placeholder="Search for rating"/>
+    </div>
     </nav>
-    
-    <section id="main">
-        <!--heading-->
-        <h1 class="showcase-heading">Movie Ratings List</h1>
-        
-        <ul id="autoWidth" class="cs-hidden">
-        
-        <!--Create the movie listings and ratings w/ images-->    
-        <!--Movie 1-->
-        <li class="item-a">
-           <div class="showcase-box">
-               <img src="images/godzillaRating.png"/>
 
-           </div>
-               </li>
-            <!--Movie 2-->
-            <li class="item-b">
-               <div class="showcase-box">
-                   <img src="images/StarWarsRating.png"/>
-               </div>
-                   </li>
-                <!--Movie 3-->
-            <li class="item-c">
-               <div class="showcase-box">
-                   <img src="images/BeastRating.png"/>
-               </div>
-                   </li>
-                <!--Movie 4-->
-            <li class="item-d">
-               <div class="showcase-box">
-                   <img src="images/ReadyRating.png"/>
-               </div>
-                   </li>
-                   <!--Movie 5-->
-            <li class="item-e">
-               <div class="showcase-box">
-                   <img src="images/MadMaxRating.png"/>
-               </div>
-                   </li>
+    <div class="heading">
+        <h1>MOVIE RATING LIST</h1>
+    </div>
 
-          </ul>
-
-        
+    <section class="sortRatings">    
+    <!--Create the movie listings and ratings w/ images-->    
+    <!--Movie 1-->
+    <div class="Movies">
+        <img src="images/godzillaRating.png"/>
+    </div>
+    <!--Movie 2-->
+    <div class="Movies">
+        <img src="images/StarWarsRating.png"/>
+    </div>
+    <!--Movie 3-->
+    <div class="Movies">
+        <img src="images/BeastRating.png"/>
+    </div>
+    <!--Movie 4-->
+    <div class="Movies">
+        <img src="images/ReadyRating.png"/>
+    </div>
+        <!--Movie 5-->
+    <div class="Movies">
+        <img src="images/MadMaxRating.png"/>
+    </div>   
     </section>
+
+    <div class="button">
+        <a>Back</a>
+        <a>Next</a>
+    </div>
 </body>    
