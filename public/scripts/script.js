@@ -11,9 +11,7 @@ const titleCollection = document.getElementById('titleCollection');
 function titleSelection(titles) { 
     return titles.map((title)=> { 
         if (title.poster_path) { 
-        return `
-            <img src = ${IMGurl + title.poster_path} info-title-id${title.id}/>
-        `;
+        return `<img src = ${IMGurl + title.poster_path} info-title-id${title.id}/>`;
         }
     })
 }
@@ -49,7 +47,6 @@ button.onclick = function(event) {
         .catch((error) => { 
             console.log('Error: ', error);
         });
+    userInput.value = '';
     console.log('Value: ', value);
 }
-
-
