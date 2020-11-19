@@ -13,7 +13,5 @@ Coding on CSS stylesheets: Julie Ho
 Writing comments and creating readme.txt: Ryan Firestone
 Creating Express app generator: Julie Ho
 Creating and coding navigation mechanism: Ritvik Kumar, Ryan Firestone
-
-***I'm not sure if you'll see this before one of us contact you but Yoo Jin Jeong hasn't
-made any contact with us in awhile or helped us on any parts of the project so we're
-now a three person group***
+Finding our external API to implement: Ritvik Kumar
+Coding to implemet API into our HTML pages: Julie Ho, Ritvik Kumar, Ryan Firestone (partially split up/collaborated)
