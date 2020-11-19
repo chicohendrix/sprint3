@@ -12,7 +12,7 @@ Latest Update: 11/4/20-->
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>"Movies Website</title>
+    <title>Movies Website</title>
     <link rel="stylesheet" href="stylesheets/style.css"/>
 </head>
 
@@ -25,18 +25,21 @@ Latest Update: 11/4/20-->
         <li><a href="movieRatings.html">MOVIE RATINGS</a></li>
         <li><a href="tvshowRatings.html">TV SHOW RATINGS</a></li>
         <li><a href="internationalRatings.html">INTERNATIONAL RATINGS</a></li>
-        <li><a href="dashboardCommunity.html">DASHBOARD COMMUNITY</a></li>
+        <li><a href="dashboardCommunity.html">DASHBOARD COMMUNITY</a></li> 
     </ul>
     <!--create search bar-->
     <div id="searchbar">
-        <input type="text" placeholder="Search for rating"/>
+        <input type="text" id="inputValue" placeholder="Search title for rating"/>
     </div>
+    <button type="submit" id="searchButton">Search</button>
     </nav>
 
     <!--create movie section on homepage-->
     <div class="heading">
         <h1>Find Your Entertainment Ratings In One Spot</h1>
     </div>
+
+
     <!--movie 1-->
     <section id="list">
     <div class="movieList">
@@ -126,7 +129,10 @@ Latest Update: 11/4/20-->
             Venom | User Rating: 4/5
         </a>
     </div>
-    </section>
+
+   </section>
+   <div id="titleCollection"></div>
+
 <!--next button to view more titles-->
     <div class="button">
         <a>Back</a>
@@ -142,6 +148,6 @@ Latest Update: 11/4/20-->
         </tr>
         </table>
     </footer>
-
+    <script src="scripts/script.js"></script>
 </body>
 </html>
