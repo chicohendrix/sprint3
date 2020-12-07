@@ -182,11 +182,13 @@ section img {
 
 footer{
   display: flex;
-  justify-content: space-between;
-  border-top: 1px solid rgba(41, 41, 41, 0.501);
+  justify-content: space-around;
+  align-items: center;
+  border-top: 1px solid rgba(0,0,0,0.1);
 
 }
-footer th{
+
+#footer th{
   color:#3f3e3e;
   margin: 10px 5px;
   font-size: 13px;
