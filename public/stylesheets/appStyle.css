@@ -106,6 +106,7 @@ section .imageContainer {
     font-size: 1rem;
     line-height: 1.5;
     border-radius: .25rem;
+
 }
 
 .form-group {
@@ -125,3 +126,66 @@ section .imageContainer {
     border: 1px solid #ced4da;
     border-radius: .25rem;
 }
+
+
+.pages{
+    list-style: none;
+  }
+  
+  li{ 
+    list-style: none;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  /*movie display*/
+  nav{
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    height: 40px;
+    border:1px solid rgba(0,0,0,0.04);
+    background-color: #674a53;
+    left: 100px;
+    top: -100;
+    z-index: 1;
+  }
+  
+  nav .pages{
+    display: flex;
+  }
+  
+  /*edit text in the menu bar*/
+  nav .pages li a{
+    height: 40px;
+    line-height: 43px;
+    margin: 0px;
+    padding: 0px 22px;
+    display: flex;
+    font-size: 13px;
+    font-weight: 500;
+    color:#FBFBFB;
+  }
+  
+ 
+  nav .pages li a:hover{
+    background-color: #9f9f9f;
+  }
+
+ h1 {
+    font-style: bold;
+    align-content: center;
+    margin: 90px;
+    padding: 10px 50px;
+    background-color: rgba(255, 255, 255, 0.494);
+    width: 100%;
+  }
+
+  body{
+    font-family: "Trebuchet MS", sans-serif;
+    background-color: #CFCCD6;
+  }
