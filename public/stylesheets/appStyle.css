@@ -79,6 +79,8 @@ p{
 .imageContainer {
     transition: 250ms all;
     width: 300px;
+    padding: 0.1rem;
+    background-color: #000000;
 }
 
 
@@ -96,6 +98,7 @@ p{
 
 .imageContainer img {
     width: 100%;
+    border-radius: 5px;
 }
 
 .btn {

@@ -162,3 +162,4 @@ document.onclick = function (event) {
 // Initialize the search
 searchPopularMovie();
 
+

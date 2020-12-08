@@ -53,3 +53,4 @@ function getVideosByMovieId(movieId, content) {
     const render = createVideoTemplate.bind({ content });
     requestMovies(url, render, handleGeneralError);
 }
+
