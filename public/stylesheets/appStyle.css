@@ -8,11 +8,6 @@ html {
     scroll-behavior: smooth;
 }
 
-
-body {
-    margin: 0;
-}
-
 .container {
     padding: 20px;
     margin: 0 auto;
@@ -31,6 +26,7 @@ section {
     flex-wrap: nowrap;
     overflow-x: auto;
     transition: 250ms all;
+    margin-bottom: 5rem;
 }
 
 section .imageContainer {
@@ -38,6 +34,7 @@ section .imageContainer {
 }
 
 .content {
+    background-color: #000000;
     display: none;
     position: relative;
     min-height: 200px;
@@ -46,10 +43,6 @@ section .imageContainer {
     padding: 20px;
 }
 
-
-.content-display {
-    display: block;
-}
 
 
 .content-display {
@@ -68,18 +61,26 @@ section .imageContainer {
 #content-close {
     cursor: pointer;
     position: absolute;
-    top: 20px;
-    padding: 10px;
-    /* width: 35px;; */
-    border: 1px solid lightgrey;
-    border-radius: 45%;
-    left: 20px;
+    top: 1px;
+    padding: 5px;
+    border: 2px solid lightgrey;
+    background-color: rgba(255, 255, 255, 0.692);
+    right: 20px;
 }
+
+
+p{ 
+    color: rgb(189, 0, 0);
+    font-style: bold;
+}
+
 
 
 .imageContainer {
     transition: 250ms all;
     width: 300px;
+    padding: 0.1rem;
+    background-color: #000000;
 }
 
 
@@ -97,12 +98,16 @@ section .imageContainer {
 
 .imageContainer img {
     width: 100%;
+    border-radius: 5px;
 }
 
 .btn {
+    position: absolute;
+    right:81px;
+    top: 100px;
     color: #fff;
-    background-color: #007bff;
-    border-color: #007bff;
+    background-color: hsl(216, 58%, 49%);
+    border-color: #3579c2;
     outline: none;
     min-height: 38px;
     font-weight: 400;
@@ -115,12 +120,16 @@ section .imageContainer {
 
 }
 
+
 .form-group {
     margin-bottom: 1rem;
 }
 
 .form-control {
-    width: 760px;
+    position: absolute;
+    top: 100px;
+    right: 17rem;
+    width: 900px;
     padding: .375rem .75rem;
     font-size: 1rem;
     font-weight: 400;
@@ -129,8 +138,9 @@ section .imageContainer {
     color: #495057;
     background-color: #fff;
     background-clip: padding-box;
-    border: 1px solid #ced4da;
+    border: 3px solid #96969685;
     border-radius: .25rem;
+
 }
 
 
@@ -172,7 +182,7 @@ section .imageContainer {
     margin: 0px;
     padding: 0px 22px;
     display: flex;
-    font-size: 13px;
+    font-size: 16px;
     font-weight: 500;
     color:#FBFBFB;
   }
@@ -184,10 +194,10 @@ section .imageContainer {
 
  h1 {
     font-style: bold;
-    align-content: center;
-    margin: 90px;
+    align-content: left;
     padding: 10px 50px;
     background-color: rgba(255, 255, 255, 0.494);
     width: 100%;
+    margin-top: 10rem;
   }
 
