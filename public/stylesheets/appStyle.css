@@ -1,3 +1,9 @@
+body{
+    font-family: "Trebuchet MS", sans-serif;
+    background-color: #CFCCD6;
+  }
+
+
 html {
     scroll-behavior: smooth;
 }
@@ -185,7 +191,3 @@ section .imageContainer {
     width: 100%;
   }
 
-  body{
-    font-family: "Trebuchet MS", sans-serif;
-    background-color: #CFCCD6;
-  }

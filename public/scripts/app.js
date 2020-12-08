@@ -1,5 +1,5 @@
 // Initial Values
-const INITIAL_SEARCH_VALUE = 'santa';
+const INITIAL_SEARCH_VALUE = 'christmas';
 const log = console.log;
 
 // Selecting elements from the DOM
@@ -161,7 +161,3 @@ document.onclick = function (event) {
 
 // Initialize the search
 searchMovie(INITIAL_SEARCH_VALUE);
-searchUpcomingMovies();
-getTopRatedMovies();
-searchPopularMovie();
-getTrendingMovies();
